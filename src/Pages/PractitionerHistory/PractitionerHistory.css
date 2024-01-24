@@ -1,0 +1,20 @@
+.admin-service-table h3 {
+  text-align: center;
+}
+.view-all {
+  background-color: #083239;
+  width: fit-content;
+  box-shadow: none;
+  margin-right: 80px;
+}
+.history > p {
+  text-align: center;
+}
+.btn-remove {
+  background-color: #fa2108;
+  width: 10%;
+}
+.btn-detail {
+  background-color: #ffad01;
+  width: 10%;
+}

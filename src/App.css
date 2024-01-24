@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+
+@font-face {
+  font-family: "Jazmin Alt";
+  src: url("/public/fonts/JazminAlt-Bold.woff") format("woff2"),
+    url("/public/fonts/JazminAlt-Bold.woff") format("woff"),
+    url("/public/fonts/JazminAlt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background-color: white;
+  height: fit-content;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jazmin Alt";
+  color: black;
+}
+h1,
+h2 {
+  color: #083239;
+}
+body {
+  overflow-x: hidden !important;
+}
+.my-container {
+  width: 1550px;
+  margin: auto;
+}
+
+.btn-primary,
+.btn-secondary {
+  width: 210px;
+  height: 45px;
+  box-shadow: 0px 10px 30px 10px rgba(250, 135, 8, 0.2);
+  padding: 12px 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  color: white !important;
+  font-size: 13px;
+  transition: all 0.5s ease;
+}
+.btn-primary {
+  background-color: #fa8708;
+}
+.btn-secondary {
+  background-color: orange;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.7;
+}
+.btn-primary:active,
+.btn-secondary:active {
+  transform: scale(0.95);
+}
+@media (max-width: 1600px) {
+  .my-container {
+    width: 1400px;
+  }
+}
+@media (max-width: 1440px) {
+  .my-container {
+    width: 1200px;
+  }
+}
+@media (max-width: 1250px) {
+  .my-container {
+    width: 1000px;
+  }
+}
+@media (max-width: 1024px) {
+  .my-container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .my-container {
+    width: 520px;
+  }
+}
+@media (max-width: 576px) {
+  .my-container {
+    width: 300px;
+  }
+}
