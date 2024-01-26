@@ -106,7 +106,6 @@ const App = () => {
             <Route path="admin-services" element={<AdminServices bool={true} />} />
             <Route path="admin-services/product/edit" element={<AdminServicesProductEdit />} />
           </Route>
-
         </Routes>
 
       </BrowserRouter>

@@ -2,6 +2,7 @@ import React from "react";
 import "./PractitionerHistoryDetail.css";
 import ServiceInfo from "../../Components/ServiceInfo/ServiceInfo.jsx";
 import ProductCard from "../../Components/ProductCard/ProductCard";
+
 const PractitionerHistoryDetail = () => {
   return (
     <div className="admin-container">
@@ -21,7 +22,6 @@ in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
         />
         <ServiceInfo heading="Email" text="abc@domain.com" />
         <ServiceInfo heading="Contact" text="1234 5678 910" />
-        <button className="btn-primary">SERVICE INVOICE DETAIL</button>
       </div>
 
       <div className="admin-profile admin-service-detail">
@@ -29,9 +29,13 @@ in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
           <h3>Services</h3>
           <h3>-</h3>
         </div>
-        <div className="add-product-picture">
-          <div className="admin-picture-container">
-            <img src="/Images/service1.png" alt="service1.png.png" />
+
+        <div className="product-container my-10">
+          <div className="products">
+            <ProductCard isprice={true} />
+            <ProductCard isprice={true}/>
+            <ProductCard isprice={true}/>
+            <ProductCard isprice={true}/>
           </div>
         </div>
 
@@ -46,16 +50,14 @@ in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
         />
 
         <h3 className="section-name mb-2">Product</h3>
-        <div className="product-container">
-          <div className="products ">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+        <div className="product-container mb-5">
+          <div className="products">
+            <ProductCard topPrice={true} />
+            <ProductCard topPrice={true} />
+            <ProductCard topPrice={true} />
+            <ProductCard topPrice={true} />
           </div>
         </div>
-
-        <button className="btn-primary">SERVICE INVOICE DETAIL</button>
       </div>
     </div>
   );

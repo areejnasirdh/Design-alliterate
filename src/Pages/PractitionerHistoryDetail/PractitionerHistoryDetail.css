@@ -24,9 +24,6 @@
   border-radius: 15px;
   margin: 0 auto;
 }
-.product > div > button{
-  display: none;
-}
 @media (max-width: 1500px) {
   .product-container > h1 {
     font-size: 50px;

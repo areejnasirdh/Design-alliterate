@@ -13,10 +13,10 @@ const AdminServices = ({bool}) => {
           <h3>-</h3>
         </div>
         <div className="admin-product-card">
-          <ProductCard isDashboard={bool} />
-          <ProductCard isDashboard={bool} />
-          <ProductCard isDashboard={bool} />
-          <ProductCard isDashboard={bool} />
+          <ProductCard isDashboard={bool} isbutton={true}/>
+          <ProductCard isDashboard={bool}  isbutton={true}/>
+          <ProductCard isDashboard={bool}  isbutton={true}/>
+          <ProductCard isDashboard={bool} isbutton={true}/>
         </div>
         <div>
           <button className="admin-btn btn-primary">

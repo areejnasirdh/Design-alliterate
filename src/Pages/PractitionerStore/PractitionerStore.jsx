@@ -21,22 +21,22 @@ const PractitionerStore = () => {
       <div className="product-container">
         <h1>Products</h1>
         <div className="products">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
+          <ProductCard topPrice={true} isbutton={true} />
         </div>
       </div>
     </div>

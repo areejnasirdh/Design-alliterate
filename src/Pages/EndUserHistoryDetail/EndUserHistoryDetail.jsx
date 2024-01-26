@@ -14,7 +14,6 @@ const EndUserHistoryDetail = () => {
         <ServiceInfo heading="Service Name" text="Service name 01" />
         <ServiceInfo heading="Email" text="abc@domain.com" />
         <ServiceInfo heading="Contact" text="1234 5678 910" />
-        <button className="btn-primary">SERVICE INVOICE DETAIL</button>
       </div>
 
       <div className="admin-profile admin-service-detail">
@@ -37,11 +36,10 @@ const EndUserHistoryDetail = () => {
         <h3 className="section-name mb-2">Order History</h3>
         <div className="product-container mb-5">
           <div className="products ">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard ispara={true} topPrice={true}/>
+            <ProductCard ispara={true} topPrice={true}/>
+            <ProductCard ispara={true} topPrice={true}/>
+            <ProductCard ispara={true} topPrice={true}/>
           </div>
         </div>
       </div>

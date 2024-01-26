@@ -13,10 +13,10 @@ const ProductSettings = () => {
           <h3>-</h3>
         </div>
         <div className="admin-product-card">
-          <ProductCard isDashboard={true} />
-          <ProductCard isDashboard={true} />
-          <ProductCard isDashboard={true} />
-          <ProductCard isDashboard={true} />
+          <ProductCard isDashboard={true} isbutton={true}/>
+          <ProductCard isDashboard={true} isbutton={true}/>
+          <ProductCard isDashboard={true} isbutton={true}/>
+          <ProductCard isDashboard={true} isbutton={true}/>
         </div>
         <div>
           <button className="admin-btn btn-primary">
